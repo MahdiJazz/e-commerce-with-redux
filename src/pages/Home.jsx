@@ -22,6 +22,7 @@ const Home = () => {
   const itemsPerPage = 6;
 
   ////////////////////////////////// Fetch products ////////////////////
+  //True
   useEffect(() => {
     dispatch(fetchproducts());
   }, []);
